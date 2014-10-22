@@ -1,0 +1,11 @@
+AllCops:
+  Exclude:
+    - 'bin/*'
+    - 'db/schema.rb'
+    - 'db/migrate/*.rb'
+
+Style/StringLiterals:
+  EnforcedStyle: double_quotes
+
+Style/TrailingComma:
+  EnforcedStyleForMultiline: comma
